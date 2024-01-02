@@ -1,5 +1,5 @@
 const fetchWeather = function (city) {
-  const apikey = "c2c39b8a8f2ffad4697967ae1f453201"; //generate an api key from openweathermap.org by creating a free account
+  const apikey = "Enter your api  key"; //generate an api key from openweathermap.org by creating a free account
   fetch(
     "https://api.openweathermap.org/data/2.5/weather?q=" +
       city +
